@@ -22,7 +22,7 @@ from urllib.parse import urlencode
  
 import httpx
  
-from nedviga.src.services.pvz_service.wildberries.base import BlockedError, SourceError
+from .base import BlockedError, SourceError
  
 log = logging.getLogger(__name__)
  
